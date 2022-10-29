@@ -1,0 +1,152 @@
+body{
+    /* background-image:  background-color; #5d4257 ;
+    background-image; linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%);; */
+    background-color: #9dc5c3;
+    background-image: linear-gradient(315deg, #5e5c5c 0%, #AFDBF5 74%,);
+    text-align: center;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    text-transform: capitalize; 
+    text-align: left;
+    border: 1px solid #9dc5c3;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-image: linear-gradient(45deg,cadetblue,#d0dae0,#e2ebf0,cadetblue);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.container p{
+    text-transform: none;
+    margin-bottom: 50px;
+    font-size: 20px ;
+    margin-top: 50px;
+    
+}
+h1{
+     color: white;
+}
+.main{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: medium;
+    padding: 5px 10px 10px ; 
+}
+main.a{
+    display: flex;
+    justify-content: flex-end;
+    text-transform: capitalize;
+    flex-direction: row;
+}
+.main:hover{
+    box-shadow: grey 5px 10px 10px;
+    border-radius: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around; 
+    /* flex-wrap: wrap; */
+}
+.header-a{
+    margin: 3px;
+    border: 2px solid #CCCCFF ;
+    padding: 2px;
+    text-decoration: none;
+    color: white;text-transform: uppercase;
+}
+.header-a:hover{
+    background-color: grey;
+    font-weight: 700;
+    border:2px solid grey ;
+}
+div.image{
+    position: relative;
+    margin: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image-a{
+    
+    height:300px;
+    width: 300px;
+    filter: blur(3px) ; 
+    margin-left: 40px;
+    box-shadow: 0 10px 20px black; 
+}
+.image-a:hover{
+    filter:drop-shadow(10px 10px 6px #adccef);
+    transform: translate3d(10px ,20px,10px);
+}
+.card{
+  display:flex;
+  padding-left: 50px;
+  justify-content: space-evenly;
+  text-align: left;
+}
+.card-a{
+    max-width:300px;
+    display:flex;
+    text-align: left;
+    letter-spacing: 2px;  
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.card-b{
+    text-transform: capitalize;
+    max-width: 300px;
+    letter-spacing: 2px;  
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.card-c{
+    text-transform: capitalize;
+    max-width:300px;
+    display:flex;
+    text-align: left;
+    letter-spacing: 2px;  
+    font-weight: bold;
+
+}
+
+/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;media query;;;;;;;;;;;;;;;;;;;;;;;;; */
+
+@media(max-width:500px){
+    html{
+        font-size: 15px;
+    }
+    p.one{
+        font-size:10px ;
+    }
+    .image-a{
+        width:150px;
+        height: 200px;
+
+    }
+    
+    .card{
+        padding: 5px;
+        margin: 5px;
+  justify-content: space-evenly;
+
+    }
+    .card-b{
+        /* margin-right:5px; */
+        padding-right:5px;
+        /* padding-right:5px; */
+        /* border: 1px solid red; */
+    }
+    .card-a{
+        padding-right:5px;
+
+    }
+   
+}
